@@ -1,0 +1,90 @@
+﻿@model Dubai.Corporate.Models.ContactUsModel
+@{
+    ViewBag.Title = "Contact Us";
+    ViewBag.Subheading = "Give us a shout.We'd love to hear";
+    Layout = "~/Views/Shared/Layout2.cshtml";
+}
+
+ <div class="window-con">
+                <div class="container">
+                    <div class="window-box">
+                        <div class="span6">
+                            <div class="window">
+                             <img src="../../Content/images/contact-us-new.png" class="contactimg" style="width:285px; height:200px;">
+                               
+                                <h2>Our Office Address:</h2>
+                                <h2>Engagement Media</h2>
+                                <p>
+                                   </p>
+                                  
+                                <p> BH - 118, Sector - II,<br/> 
+                                    Salt Lake City,<br/>
+                                    Kolkata - 700 091.
+                                </p>
+                                <p><img src="../../Content/images/ph1.png" class="phoneimg"/>033-40650178</p>
+                                 <p><img src="../../Content/images/email_.png" class="phoneimg"/>info@engagementmedia.co.in</p>
+                            </div>
+                            
+                            <div class="window-bottom">
+                               
+                            </div>
+                            <div class="window-contact">
+                              
+                            </div>
+                        </div>
+                         <div >
+                       
+                    </div>
+                       <div id="contact_form">
+        @if (Model.IsSent)
+        {
+            <h3>
+                Thank you <span style="color: #DD5353;">@Model.Name</span></h3>
+            <h3>
+                Your request has been recieved</h3>
+
+        }
+        else
+        {
+            
+            using (Html.BeginForm("ContactUs", "Home", FormMethod.Post))
+            {
+             @Html.ValidationSummary(false, "Please correct the errors shown below !")
+                       
+                            <div>@Html.LabelFor(m => m.Name)</div>
+                            <div>@Html.TextBoxFor(m => m.Name, new { @class = "textbox" })</div>
+                            <div>@Html.LabelFor(m => m.Email)</div>
+                            <div>@Html.TextBoxFor(m => m.Email, new { @class = "textbox" })</div>
+                            <div>@Html.LabelFor(m => m.Phone)</div>
+                            <div>@Html.TextBoxFor(m => m.Phone, new { @class = "textbox" })</div>
+                            <div>@Html.LabelFor(m => m.Subject)</div>
+                            <div>@Html.TextBoxFor(m => m.Subject, new { @class = "textbox" })</div>
+                            <div>@Html.LabelFor(m => m.Message)</div>
+                            <div>@Html.TextAreaFor(m => m.Message, new { @class = "textarea" })</div>
+                            <div>
+                                <input type="image" src="../../Content/images/submit.png" name="submit" value="Send" id="button"/>
+                            </div>
+                       
+            }
+        }
+    </div>
+                    </div>
+                </div>
+            </div>
+ @*content body*@
+           @* <div class="con-body">
+                <div class="container">
+                <h2>heading</h2>
+                <p>Nam enim risus, molestie et, porta. Quisque lobortis. Phasellus pellentesque purus
+                    in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed
+                    ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis</p>
+                    <ul>
+                        <li><i class="fa-angle-right"></i>points</li>
+                        <li><i class="fa-angle-right"></i>points</li>
+                       <li><i class="fa-angle-right"></i>points</li>
+                        <li><i class="fa-angle-right"></i>points</li>
+                    </ul>
+                    </div>
+            </div>*@
+            
+            @*end body*@

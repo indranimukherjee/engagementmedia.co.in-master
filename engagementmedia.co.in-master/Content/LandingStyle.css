@@ -1,0 +1,244 @@
+
+
+
+.wrapper, .extra-wrap, .wrapper-extra { overflow:hidden; }
+img{ border: none;}
+.span6 {
+width: 570px;
+float: right;
+min-height: 1px;
+
+/*border: 1px solid black;*/
+}
+.window {
+    height: 300px;
+    width: 400px;
+    background: #FFFFFF;
+border-radius: 10px 10px 0 0;
+-moz-border-radius:10px 10px 0 0;
+-webkit-border-radius:10px 10px 0 0;
+    /* padding: 10px 10px 5px 10px; */
+
+    margin: 0 auto 0;
+position: relative;
+    border: 1px solid #E3E3E3;
+}
+.window-bottom {
+background: #C3C7CE;
+width: 100%;
+height: 13px;
+bottom: 0;
+left: -12.5%;
+border-radius: 0 0 30px 30px;
+}
+.window img
+{
+    width: 360px;
+height: 270px;
+    padding: 20px 20px 10px 20px;
+}
+.window .phoneimg
+{
+    width: 25px;
+    height: 22px;
+    padding: 7px 11px 0px 1px;
+}
+.window .contactimg{
+width: 140px!important;
+height: 140px!important;
+float: right;
+}
+.welcome
+{
+    float: left;
+
+    width: 570px;
+
+    min-height: 1px;
+margin-left: 30px;
+
+/*border: 1px solid black;*/
+}
+.welcome p span a
+{
+    font-size: 16px;color: #DD5353;
+
+/*border: 1px solid black;*/
+}
+
+.window-box {
+    width: 100%;
+}
+.window h2{ padding-left: 20px;font-size: 18px;color: #DF8650;}
+.window p{ padding-left: 20px;font-size: 18px;}
+.window-con {
+    background: none repeat scroll 0 0 #F3F3F3;
+border-top: 1px solid #E3E3E3;
+padding: 60px 0;
+position: relative;
+}
+.welcome h3 {
+    font-size: 20px;
+    font-weight: normal;
+    
+}
+.welcome h2 {
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0;
+    color:#DD5353;
+}
+.welcome p {
+  /*  margin-bottom: 40px;*/
+    text-align: justify;
+}
+.welcome ul {
+    list-style-type: none;
+}
+.newbutton {
+background: #DD5353;
+border-bottom: 1px solid #DD5353;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+font-size: 14px;
+padding: 12px 22px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.newbutton:hover {
+    background: #DD5353;
+    cursor: pointer;
+}
+
+.top {
+    background: none repeat scroll 0 0 #ffffff;
+position: relative;
+}
+
+.landing-heading {
+    font-size: 26px;
+
+    font-weight: 300;
+line-height: 44px;
+
+    background: none repeat scroll 0 0 #DD5353;
+    color: #ffffff;
+    padding: 0 10px 0 30px;
+    width: 20%;
+}
+
+.landing-subheading {
+    font-size: 26px;  
+    font-weight: 300;  line-height: 44px;  
+    background: none repeat scroll 0 0 #2A3644;  
+    color: #ffffff;
+    padding: 0 10px 0 30px;  
+    width: 34%;
+    
+}
+
+.con-body 
+{
+    border-top: 1px solid #E3E3E3;
+   background: none repeat scroll 0 0 #f6f7fb;
+position: relative; 
+}
+
+.con-body h2 {
+     color:#DD5353;
+    font-size: 20px;
+    font-weight: 700;
+line-height: normal;
+
+    margin-left: 30px;
+    margin-bottom: 5px;
+margin-top: 5px;
+}
+.con-body p {
+    margin-bottom: 5px;
+margin-top: 5px;
+    margin-left: 30px;
+}
+.con-body ul {
+    list-style-type: none;
+    
+    margin: 5px 0 5px 0;  padding: 0;
+}
+.con-body li {
+    
+    padding: 5px 0px 5px 30px;
+    
+}
+.con-body li i {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+#contact_form
+{
+    /* border: 1px solid blue;*/
+    float: left;
+    margin-left: 50px;
+    padding: 30px;
+    width: 416px;
+   
+    background-color: #FFFFFF;
+}
+#contact_form label
+{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: #333333;
+}
+#contact_form .textbox
+{
+    padding: 5px;
+    width: 360px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border: 1px solid #1bc4de;
+}
+#contact_form .textarea
+{
+    width: 365px;
+    margin-left: 20px;
+    border: 1px solid #1bc4de;
+}
+
+.field-validation-error
+{
+    color: #ff0000;
+}
+
+.field-validation-valid
+{
+    display: none;
+}
+
+.input-validation-error
+{
+    border: 1px solid #ff0000 !important;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors
+{
+  background-color: #FF0000;
+color: #FFFFFF;
+padding: 2px;
+/* width: 472px; */
+/* margin-left: 50px; */
+font-size: 12px;
+font-weight: bold;
+text-align: center;
+}
+.validation-summary-errors ul
+{
+    display: none;
+}
+.validation-summary-valid
+{
+    display: none;
+}

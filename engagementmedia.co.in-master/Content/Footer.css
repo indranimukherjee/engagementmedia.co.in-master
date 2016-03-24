@@ -1,0 +1,145 @@
+.footer
+{
+    background: #2A3644;
+    border-top: 1px solid #ffffff;
+}
+
+.section
+{
+    float: left;
+    margin-left: 59px;
+    width: 350px; /* border: 1px solid #ffffff;*/
+}
+.footer-widget-content p
+{
+    padding: 0;
+    color: #ffffff;
+    font-size: 13px;
+}
+.footer-widget-content-icon { 
+    padding: 0;
+    color: transparent;
+    font-size: 13px;
+}
+.footer-widget-content .footer-social-icons {
+    background: url(../images/line.jpg) 23px 0 no-repeat;
+    padding-top: 1px;
+}
+
+/*.footer-widget-content .footer-social-icons
+{
+    margin-top: 10px;
+}
+.footer-widget-content .footer-social-icons a:first-child
+{
+    margin-left: 0;
+}*/
+.footer-widget-content-icon .footer-social-icons a
+{
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    color: #005580;
+    background-color: #ffffff;
+    text-decoration: none;
+    margin: 6px;
+}
+
+
+.footer-widget-content .footer-social-icons a.twitter-footer
+{
+    background: url(images/twitter.jpg) no-repeat;
+    opacity: 1;
+}
+.footer-widget-content .footer-social-icons a.twitter-footer:hover
+{
+    background: url(images/twitterh.jpg) no-repeat;
+    opacity: 1;
+}
+
+.section ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.section ul li
+{
+    background: url("images/indicator-1.png") no-repeat scroll 0 8px transparent;
+    display: block;
+    padding-left: 20px;
+margin-top: 5px;
+}
+.section ul li a
+{
+    color: #CFCFCF;
+    text-decoration: none;
+}
+.section ul li a:hover
+{
+    color: #1ABC9C;
+}
+.section h3
+{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+  /*  margin-bottom: 18px;*/
+    text-shadow: 0 0 3px #000000;
+}
+
+.section:first-child
+{
+    margin-left: 0;
+}
+.copyright
+{
+    background-color: #23282E;
+}
+.copyright .container p
+{
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+}
+.sociol_icon
+{
+    float: right;
+    margin-top: -20px;
+}
+.sociol_icon
+{
+    float: right;
+}
+
+.sociol_icon a
+{
+    padding: 5px;
+}
+.sociol_icon a img
+{
+    border: none;
+}
+
+
+/* bottom */
+
+.bottom {
+    background: #DF8650;
+}
+.bottom h2 {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: normal;  margin-bottom: 10px;  margin-top: 10px;
+}
+.Infoarea a {
+    color: #ffffff;
+    padding: 5px;
+    text-decoration: none;
+}
+/* end bottom */
