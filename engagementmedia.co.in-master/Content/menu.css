@@ -171,3 +171,29 @@ ul#images li
     width: 155px;
     height: 300px;
 }
+
+/*----------------------26.07.26------------------------------*/
+
+    .homemenu{
+        font-size: 26px;
+        position: absolute;
+        top: 4px;
+        left: 12px;
+    }
+
+    .faicon{
+        background: none !important;
+        border: none !important;
+        padding-top: 6px;
+    }
+     .faicon2{
+        background: none !important;
+        border: none !important;
+        padding-top: 6px;
+        margin-right:5px;
+        color:#DD5353 !important;
+
+    }
+    .faicon2:hover {
+        color:#DD5353 !important;
+    }
